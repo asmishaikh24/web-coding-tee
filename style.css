@@ -1,0 +1,367 @@
+/* COMMON CSS SECTION */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	-outline: 0;
+	font-family: Roboto, sans-serif, arial;
+}
+
+html, body {
+	font-size: 14px;
+	font-weight: 400;
+	background: #000000;
+	color: #fff;
+}
+
+.container {
+	width: 1100px;
+	margin: 0px auto;
+	display: table;
+}
+
+.width-33 {
+	width: 33%;
+	float: left;
+}
+
+.width-66 {
+	width: 66%;
+	float: left;
+}
+
+/* MENU SECTION */
+.main-panel {
+	width: 100%;
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	height: 100vh;
+}
+
+.logo {
+	font-size: 40px;
+	font-weight: 600;
+}
+
+.span-col {
+	color: #e3ed6e;
+}
+
+nav {
+	float: right;
+}
+
+	nav a {
+		text-decoration: none;
+		font-size: 16px;
+		font-weight: 500;
+		margin-left: 20px;
+		margin-top: 60px;
+		color: white;
+		transition: color 0.3s, font-weight 0.3s;
+	}
+
+		/* Hover effect for menu items */
+		nav a:hover {
+			color: #e3ed6e;
+			font-weight: bold;
+		}
+
+/*****Main BANNER*****/
+.width-50 {
+	float: left;
+	width: 50%;
+}
+.banner-section {
+	width: 100%;
+	float: left;
+	margin-top: 25vh;
+}
+.banner-section h1 {
+	font-size: 48px;
+	margin-top: 10px;
+	font-weight: bolder;
+}
+.banner-section h2 {
+	font-size: 20px;
+	line-height: 25px;
+	margin-top: 10px;
+	font-weight: 400;
+}
+.banner-section a {
+    float: left;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 20px;
+    border-radius: 50%;
+    text-align: center;
+    border: 2px solid #e2fa5f;
+    color: #e2fa5f;
+    margin-left: 10px;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    transition: background-color 0.3s, color 0.3s; /* Add a transition for smooth hover effect */
+}
+
+.banner-section a:hover {
+    background-color: #e2fa5f; /* Change the background color on hover */
+    color: #000; /* Change the text color on hover */
+}
+/*****Main BANNER IMAGE*****/.main-panel img {
+	margin-top: 10%; width: 100%;
+	margin-left:;}
+   /* ABOUT US SECTION */
+   .main-section { width: 100%;
+	float: right; padding: 110px 0px 110px 0px;
+   }
+   .width-100 { width: 100%;
+	float: left;}
+   .mt-20 {
+	margin-top: 20px;}
+   .heading-text {
+	width: 100%; float: left;
+	font-size: 35px; text-align: center;
+	margin-bottom: 50px;
+	color: #e2fa5f;}
+   .about-img {
+	width: 100%;
+	padding: 0px 50px;}
+   .about-us {
+	width: 100%; float: left;
+	padding: 20px; margin-top: 20px;
+	margin-right: 100px; /* Increase the margin-right value for more space */}
+   table {
+	   width: 100%;}
+	table th,
+	table td {  font-size: 16px;
+	 text-align: left;  padding: 5px 0px;
+	}
+
+/* SKILL SECTION */
+.skill {
+	margin-top: 30px;
+	font-size: 17px;
+}
+
+	.skill span {
+		float: right;
+	}
+
+	.skill div {
+		width: 100%;
+		float: left;
+		margin-top: 5px;
+		background: #e7e7e7;
+		border-radius: 10px;
+	}
+
+		.skill div span {
+			background: #e2fa5f;
+			height: 5px;
+			float: left;
+		}
+
+div[role="progressbar"] {
+	color: #e2fa5f;
+	margin-left: 100px;
+	margin-bottom: 20px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	place-items: center;
+	display: grid;
+	--pgPercentage: var(--value);
+	background: radial-gradient(closest-side, black 80%, transparent 0 99.9%, black 0), conic-gradient(#e2fa5f calc(var(--pgPercentage) * 1%), #e8e6e1 0);
+}
+div[role="progressbar"]:hover {  background: radial-gradient(closest-side, black 80%, transparent 0 99.9%, black 0), conic-gradient(#e8e6e1 calc(var(--pgPercentage) * 1%), #e2fa5f 0);
+}
+
+/*****EXPERIENCE SECTION*****/
+.bg-lightgrey {
+	background-color: #1a1a1a;
+}
+.edu-exp {
+	padding: 10px 0px;
+	width: 48%;
+	margin: 1%;
+	float: left;
+	padding-left: 10px;
+}
+.experience-list {
+	width: 100%;
+	float: left;
+	padding: 30px 10px;
+	background: #262626;
+	margin-bottom: 20px;
+}
+.experience-content {
+	width: 100%;
+	float: left;
+	margin-left: 10px;
+}
+.experience-content h2 {
+
+	font-weight: 600;
+	margin-bottom: 5px;
+	font-size: 20px;
+}
+.experience-content h3 {
+	color: #e2fa5f;
+	font-weight: 500;
+	margin-bottom: 2px;
+	font-size: 17px;
+}
+.experience-content p {
+	font-size: 15px;
+}
+
+/* Hover effect for experience section */
+.experience-list:hover {
+	background: #1a1a1a;
+}
+
+/*SERVICE SECTION*/
+.service-list {
+	padding: 40px;
+	margin-top: 35px;
+	background: #262626;
+	border-radius: 15px;
+	width: 94%;
+	float: left;
+}
+
+.service-list i {
+	font-size: 50px;
+	color: #e2fa5f;
+	width: 70px;
+	float: left;
+}
+
+.service-list h3 {
+	font-size: 28px;
+	margin-top: 8px;
+	margin-bottom: 15px;
+}
+
+.service-list p {
+	font-size: 15px;
+	line-height: 25px;
+}
+
+/* Hover effect for service section */
+.service-list:hover {
+	background: #1a1a1a;
+}
+
+/* CONTACT US SECTION */
+contact form {
+	width: 66%;
+	margin: 0px auto;
+}
+
+contact input,
+contact textarea {
+	width: 100%;
+	float: left;
+	margin-bottom: 20px;
+	height: 40px;
+	padding: 10px;
+	border: 1px solid #a1a1a1;
+}
+
+contact textarea {
+	height: 80px;
+}
+
+contact button {
+	width: 100%;
+	float: left;
+	margin-bottom: 20px;
+	height: 40px;
+	padding: 10px;
+	background: #e2fa5f;
+	color: #fff;
+	border: none;
+	font-size: 16px;
+}
+
+contact h3 {
+	font-size: 26px;
+	text-align: center;
+	margin-top: 60px;
+	color: #e2fa5f;
+}
+
+contact h4 {
+	font-size: 22px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+contact p {
+	text-align: center;
+	font-size: 16px;
+	margin-top: 5px;
+}
+
+/* FOOTER SECTION */
+.footer {
+	background-color: #1a1a1a;
+	padding: 30px 0;
+	color: #fff;
+	text-align: center;
+}
+
+	.footer a {
+		color: #e3ed6e;
+		text-decoration: none;
+		margin: 0 15px;
+		font-size: 18px;
+		transition: color 0.3s;
+	}
+
+		.footer a:hover {
+			color: #fff;
+		}
+
+.social-icon a i {
+	width: 50px;
+	height: 50px;
+	border: 1px solid #cdcdcd;
+	line-height: 50px;
+	font-size: 24px;
+	border-radius: 50%;
+	color: #e3ed6e;
+	text-align: center;
+	display: inline-block;
+	margin: 0 10px;
+	transition: background 0.3s, color 0.3s;
+}
+
+	.social-icon a i:hover {
+		background: #e3ed6e;
+		color: #000;
+		border: 1px solid #e3ed6e;
+	}
+
+/* Modify the CSS for the submit button */
+.contact button.submit-button {
+	width: 200px;
+	height: 50px;
+	padding: 10px 20px;
+	background: #e3ed6e;
+	color: #000;
+	border: 2px solid #e3ed6e;
+	font-size: 20px;
+	border-radius: 5px;
+	transition: background 0.3s, color 0.3s, border 0.3s;
+}
+
+	.contact button.submit-button:hover {
+		background: #000;
+		color: #e3ed6e;
+		border: 2px solid #000;
+		cursor: pointer;
+	}
